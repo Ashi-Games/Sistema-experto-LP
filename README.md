@@ -86,4 +86,4 @@ Los candidatos registrados desde el menú existen solo en Scala; los hechos de P
 
 ## Autor
 
-<tu nombre> — <curso / ciclo>
+<Eidan Limaylla Santos> — <Leanguajes de Programacion / 8to ciclo>
