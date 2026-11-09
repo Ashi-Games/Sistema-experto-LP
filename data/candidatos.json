@@ -1,0 +1,8 @@
+[
+  {"id": "c1", "nombre": "Ana",   "anios_exp": 5, "estudios": "licenciado", "nota": 90, "habilidades": ["scala", "prolog", "sql"]},
+  {"id": "c2", "nombre": "Luis",  "anios_exp": 2, "estudios": "tecnico",    "nota": 70, "habilidades": ["scala", "git"]},
+  {"id": "c3", "nombre": "Marta", "anios_exp": 4, "estudios": "licenciado", "nota": 85, "habilidades": ["python", "sql", "scala"]},
+  {"id": "c4", "nombre": "Jose",  "anios_exp": 1, "estudios": "bachiller",  "nota": 60, "habilidades": ["html"]},
+  {"id": "c5", "nombre": "Carla", "anios_exp": 6, "estudios": "maestria",   "nota": 78, "habilidades": ["scala", "prolog", "python"]},
+  {"id": "c6", "nombre": "Diego", "anios_exp": 3, "estudios": "licenciado", "nota": 80, "habilidades": ["scala", "sql"]}
+]

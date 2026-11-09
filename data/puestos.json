@@ -1,0 +1,4 @@
+[
+  {"id": "p1", "nombre": "Desarrollador Backend", "exp_min": 3, "estudios_min": "licenciado", "nota_min": 75, "requisitos": ["scala", "sql"]},
+  {"id": "p2", "nombre": "Analista de Datos",     "exp_min": 2, "estudios_min": "bachiller",  "nota_min": 70, "requisitos": ["python", "sql"]}
+]

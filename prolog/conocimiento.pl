@@ -1,26 +1,8 @@
-% ---------- HECHOS ----------
-% candidato(Id, Nombre, AniosExp, Estudios, NotaEntrevista)
-candidato(c1, ana,   5, licenciado, 90).
-candidato(c2, luis,  2, tecnico,    70).
-candidato(c3, marta, 4, licenciado, 85).
-candidato(c4, jose,  1, bachiller,  60).
-candidato(c5, carla, 6, maestria,   78).
+% Los hechos (candidato, habilidad, puesto, requiere) los genera Python
+% desde data/*.json y quedan en prolog/hechos.pl
+:- include('hechos.pl').
 
-% habilidad(IdCandidato, Habilidad)
-habilidad(c1, scala).   habilidad(c1, prolog). habilidad(c1, sql).
-habilidad(c2, scala).   habilidad(c2, git).
-habilidad(c3, python).  habilidad(c3, sql).    habilidad(c3, scala).
-habilidad(c4, html).
-habilidad(c5, scala).   habilidad(c5, prolog). habilidad(c5, python).
-
-% puesto(Id, Nombre, ExpMin, EstudiosMin, NotaMin)
-puesto(p1, desarrollador_backend, 3, licenciado, 75).
-puesto(p2, analista_datos,        2, bachiller,  70).
-
-% requiere(IdPuesto, Habilidad)
-requiere(p1, scala). requiere(p1, sql).
-requiere(p2, python). requiere(p2, sql).
-
+% ---------- HECHOS FIJOS ----------
 % nivel(Estudios, Valor)
 nivel(tecnico, 1).
 nivel(bachiller, 2).

@@ -1,4 +1,4 @@
-@main def main(): Unit =
+def menuDemo(): Unit =
   val candidatos = List(
     Candidato("c1", "Ana",   5, Estudios.Licenciado, 90, List("scala", "prolog", "sql")),
     Candidato("c2", "Luis",  2, Estudios.Tecnico,    70, List("scala", "git")),
@@ -13,3 +13,7 @@
   )
 
   Menu.correr(Repositorio(candidatos, puestos))
+
+@main def main(args: String*): Unit =
+  if args.contains("--stdin") then Integracion.correr()
+  else menuDemo()
